@@ -15,6 +15,8 @@ In this readme, I will document my journey on how I will build an http server fr
 | 2 | Data Link | Frames |
 | 1 | Physical | Bits |
 
+**Top to Bottom** - Encapsulation. <br>
+**Bottom to Top** - Decapsulation. <br> 
 **PDU** - This is the form of the data while traversing each layer of the OSI model. <br> <br> <br>
 
 ### Flow of data going through the OSI Model from top to bottom <br>
