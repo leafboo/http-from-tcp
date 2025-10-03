@@ -19,9 +19,14 @@ In this readme, I will document my journey on how I will build an http server fr
 
 ### Flow of data going through the OSI Model from top to bottom <br>
 _Session -> Transport_ <br> <br>
-TCP breaks up the session data into segments and attaches a TCP header to each segments. <br> It will look like this: <br> <img width="637" height="552" alt="image" src="https://github.com/user-attachments/assets/060340ee-749b-4702-b3c2-3c513ff23fc3" />
+TCP breaks up the session data into segments and attaches a TCP header to each segments. <br><br>
+<img width="637" height="552" alt="image" src="https://github.com/user-attachments/assets/060340ee-749b-4702-b3c2-3c513ff23fc3" />
 <br><br><br>
-_Trasport -> Network_
+_Trasport -> Network_ <br><br>
+IP takes the segment and attaches the IP header to it, forming something that's called an IP packet. <br><br>
+<img width="1121" height="413" alt="image" src="https://github.com/user-attachments/assets/b7fb3cc0-3369-466b-bba5-3d5e2fbb6aa5" />
+
+
 
 
 
